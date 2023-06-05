@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lambda-strict-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint strict config for Lambda functions",
   "keywords": [
     "eslint",
@@ -15,7 +15,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "p": "yarn publish --access public"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.8",
